@@ -30,7 +30,8 @@ public class CardServiceController {
         fakeRepo.add(new Card(4l, "Elena Tarin", String.valueOf(Math.random()).substring(0, 16),"06/22"));
         fakeRepo.add(new Card(5l, "Wending Qua", String.valueOf(Math.random()).substring(0, 16),"03/25"));
         fakeRepo.add(new Card(6l, "Julio Sanch", String.valueOf(Math.random()).substring(0, 16),"09/18"));
-        fakeRepo.add(new Card(7l, "Adolf Bianc", String.valueOf(Math.random()).substring(0, 16),"07/22"));         
+        fakeRepo.add(new Card(7l, "Adolf Bianc", String.valueOf(Math.random()).substring(0, 16),"07/22"));  
+        fakeRepo.add(new Card(8l, "Clare Eianc", String.valueOf(Math.random()).substring(0, 16),"08/21")); 
     }
      
     @RequestMapping(value="/cards", method = RequestMethod.GET)
